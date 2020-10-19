@@ -18,7 +18,7 @@ function validatePassword(password) {
 }
 
 function validateSearch(search) {
-    if (search.value.length < 2) return "Поле поиска не может содержать менее 2 символов.";
+    if (search.value.length < 2) return "Минимум 2 символа.";
     else return 1
 }
 

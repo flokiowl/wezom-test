@@ -261,6 +261,11 @@
 }
 
 @media screen and (max-width: 580px) {
+    .modal.subscribe {
+        .modal__content {
+            width: 85%;
+        }
+    }
     .modal__social  {
         span {
             display: none;

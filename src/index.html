@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Wezom-test</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__nav-wrapper">
+                        <nav class="header__nav">
+                            <button class="header__burger">
+                                <svg class="icon" width="24" height="20">
+                                    <use xlink:href="img/sprite.svg#burger"></use>
+                                </svg>
+                            </button>
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Главная</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link active">О компании</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Ссылка 1</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Ссылка 2</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Ссылка 3</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="header__user-nav">
+                            <button class="header__sign-in btn">
+                                <img src="img/entry.png" alt="Вход">
+                                <span>Вход</span>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-12">
+                            <div class="header__logo">
+                                <img src="img/test-orange.png" alt="Test">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-8 col-12">
+                            <div class="header__callback">
+                                <a href="tel:+380 98 170 00 740">+380 98 170 00 740</a>
+                                <a href="tel:+380 98 170 00 740">+380 98 170 00 740</a>
+                                <button class="header__callback-btn">
+                                    <img src="img/phone.png" alt="Перезвонить мне">
+                                    <span>Перезвонить мне</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-12">
+                            <div class="header__actions">
+                                <a href="#" class="header__action comparison">
+                                    <span class="counter"></span>
+                                    <img src="img/comparison.png" alt="Сравнение">
+                                    <span class="text">Cравнение</span>
+                                </a>
+                                <a href="#" class="header__action favorites">
+                                    <span class="counter"></span>
+                                    <img src="img/favorites.png" alt="Избранное">
+                                    <span class="text">Избранное</span>
+                                </a>
+                                <a href="#" class="header__action basket">
+                                    <span class="counter">5</span>
+                                    <img src="img/basket.png" alt="Корзина">
+                                    <span class="text">Корзина</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container grow">
+            <div class="top">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <nav class="menu">
+                            <div class="menu__header">
+                                <div class="menu__header-icon">
+                                    <svg class="icon" width="14" height="10">
+                                        <use xlink:href="img/sprite.svg#burger"></use>
+                                    </svg>
+                                </div>
+                                <div class="menu__header-text">
+                                    <h3>Меню</h3>
+                                </div>
+                            </div>
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 1</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 2</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 3</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 4</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 5</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 6</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">
+                                        <span>Ссылка 7</span>
+                                        <svg class="icon" width="8" height="14">
+                                            <use xlink:href="img/sprite.svg#arrow_right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="search">
+                            <input type="text" class="search__input" placeholder="Поиск по сайту">
+                            <span id="search__error" class="search__error"></span>
+                            <div class="search__category select">
+                                <div class="select__header">
+                                    <span class="select__current">Все категории</span>
+                                    <div class="select__icon">
+                                        <svg class="icon" width="6" height="5">
+                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="select__body">
+                                    <div class="select__item">Все категории</div>
+                                    <div class="select__item">Только товары</div>
+                                    <div class="select__item">Только статьи</div>
+                                </div>
+                            </div>
+                            <button class="search__button">
+                                <span>Поиск</span>
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/sprite.svg#search"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="filters">
+                            <div class="filters__menu">
+                                <a href="#" class="filters__menu-link active">
+                                    <img src="img/filter-1.png" alt="Ссылка 1">
+                                    <span>Ссылка 1</span>
+                                </a>
+                                <a href="#" class="filters__menu-link">
+                                    <img src="img/filter-2.png" alt="Ссылка 2">
+                                    <span>Ссылка 2</span>
+                                </a>
+                                <a href="#" class="filters__menu-link">
+                                    <img src="img/filter-3.png" alt="Ссылка 3">
+                                    <span>Ссылка 3</span>
+                                </a>
+                                <a href="#" class="filters__menu-link">
+                                    <img src="img/filter-4.png" alt="Ссылка 4">
+                                    <span>Ссылка 4</span>
+                                </a>
+                                <a href="#" class="filters__menu-link">
+                                    <img src="img/filter-5.png" alt="Ссылка 5">
+                                    <span>Ссылка 5</span>
+                                </a>
+                            </div>
+                            <div class="filters__inner">
+                                <nav class="filters__tab-nav">
+                                    <a href="#" class="filters__tab-1">Tab 1</a>
+                                    <a href="#" class="filters__tab-2 active">Tab 2</a>
+                                </nav>
+                                <div class="filters__tab-content">
+                                    <div id="filter-tab-1" class="filters__tab-pane">
+                                        <div class="filters__form">
+                                            <div class="filters__select select">
+                                                <div class="select__header">
+                                                    <span class="select__current">Select 1</span>
+                                                    <div class="select__icon">
+                                                        <svg class="icon" width="6" height="5">
+                                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="select__body">
+                                                    <div class="select__item">Value 1</div>
+                                                    <div class="select__item">Value 2</div>
+                                                    <div class="select__item">Value 3</div>
+                                                </div>
+                                            </div>
+                                            <div class="filters__select select">
+                                                <div class="select__header">
+                                                    <span class="select__current">Select 2</span>
+                                                    <div class="select__icon">
+                                                        <svg class="icon" width="6" height="5">
+                                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="select__body">
+                                                    <div class="select__item">Value 1</div>
+                                                    <div class="select__item">Value 2</div>
+                                                    <div class="select__item">Value 3</div>
+                                                </div>
+                                            </div>
+                                            <div class="filters__select select">
+                                                <div class="select__header">
+                                                    <span class="select__current">Select 3</span>
+                                                    <div class="select__icon">
+                                                        <svg class="icon" width="6" height="5">
+                                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="select__body">
+                                                    <div class="select__item">Value 1</div>
+                                                    <div class="select__item">Value 2</div>
+                                                    <div class="select__item">Value 3</div>
+                                                </div>
+                                            </div>
+                                            <div class="filters__select select">
+                                                <div class="select__header">
+                                                    <span class="select__current">Select 4</span>
+                                                    <div class="select__icon">
+                                                        <svg class="icon" width="6" height="5">
+                                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="select__body">
+                                                    <div class="select__item">Value 1</div>
+                                                    <div class="select__item">Value 2</div>
+                                                    <div class="select__item">Value 3</div>
+                                                </div>
+                                            </div>
+                                            <div class="filters__select select">
+                                                <div class="select__header">
+                                                    <span class="select__current">Select 5</span>
+                                                    <div class="select__icon">
+                                                        <svg class="icon" width="6" height="5">
+                                                            <use xlink:href="img/sprite.svg#select_arrow"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="select__body">
+                                                    <div class="select__item">Value 1</div>
+                                                    <div class="select__item">Value 2</div>
+                                                    <div class="select__item">Value 3</div>
+                                                </div>
+                                            </div>
+                                            <div class="filters__price">
+                                                <span>Цена</span>
+                                                <input type="number" min="1" oninput="validity.valid||(value='');" placeholder="50">
+                                                <input type="number" min="1" oninput="validity.valid||(value='');" placeholder="250000">
+                                            </div>
+                                        </div>
+                                        <div class="filters__actions">
+                                            <button class="filters__clear">
+                                                <svg class="icon" width="13" height="13">
+                                                    <use xlink:href="img/sprite.svg#close"></use>
+                                                </svg>
+                                                <span>Очистить фильтр</span>
+                                            </button>
+                                            <button class="filters__apply">
+                                                Применить фильтр
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="main">
+                <section class="cards">
+                    <div class="cards__header">
+                        <h2>Карточки товаров</h2>
+                        <a href="/">
+                            <span>Ссылка в каталог</span>
+                            <svg class="icon" width="15" height="3">
+                                <use xlink:href="img/sprite.svg#long_arrow_right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__row row no-gutters">
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card__mark">
+                                    <span>Mark</span>
+                                </div>
+                                <div class="card__name">
+                                    <a href="/" title="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                        Антифриз Fosser Antifreeze<br> FA 12 Readymix 1 л Concentrat, Germany
+                                    </a>
+                                </div>
+                                <div class="card__top">
+                                    <div class="card__rating">
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                    </div>
+                                    <a href="/" class="card__reviews">Отзывы (<span class="counter">10</span>)</a>
+                                    <span class="card__available">В наличии: <span class="counter">24</span> шт.</span>
+                                </div>
+                                <div class="card__inner">
+                                    <div class="card__features">
+                                        <p>
+                                            <img src="img/summer.png" alt="Летняя">
+                                            <span>Летняя</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/passenger.png" alt="Легковая">
+                                            <span>Легковая</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/new.png" alt="Новая">
+                                            <span>Новая</span>
+                                        </p>
+                                    </div>
+                                    <div class="card__image">
+                                        <img src="img/product-1.jpg" alt="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                    </div>
+                                </div>
+                                <div class="card__badges">
+                                    <span class="card__badge green">Новинка</span>
+                                    <span class="card__badge violet">Хит</span>
+                                    <span class="card__badge pink">Cкидка</span>
+                                </div>
+                                <div class="card__price">
+                                    <span class="card__new-price"><span>599</span> грн.</span>
+                                    <span class="card__old-price">1 250 грн.</span>
+                                </div>
+                                <div class="card__actions">
+                                    <button class="card__buy">
+                                        <img src="img/basket-mini.png" alt="Купить товар">
+                                        <span>Купить товар</span>
+                                    </button>
+                                    <div class="card__additional-actions">
+                                        <button class="card__compare card__button" data-state="0">
+                                            <img src="img/comparison-mini.png" alt="Сравнить товар">
+                                            <span>Сравнить товар</span>
+                                        </button>
+                                        <button class="card__favorite card__button" data-state="0">
+                                            <img src="img/favorites-mini.png" alt="В избранное">
+                                            <span>В избранное</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card__mark">
+                                    <span>Mark</span>
+                                </div>
+                                <div class="card__name">
+                                    <a href="/" title="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                        Антифриз Fosser Antifreeze<br> FA 12 Readymix 1 л Concentrat, Germany
+                                    </a>
+                                </div>
+                                <div class="card__top">
+                                    <div class="card__rating">
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                    </div>
+                                    <a href="/" class="card__reviews">Отзывы (<span class="counter">10</span>)</a>
+                                    <span class="card__available">В наличии: <span class="counter">24</span> шт.</span>
+                                </div>
+                                <div class="card__inner">
+                                    <div class="card__features">
+                                        <p>
+                                            <img src="img/summer.png" alt="Летняя">
+                                            <span>Летняя</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/new.png" alt="Новая">
+                                            <span>Новая</span>
+                                        </p>
+                                    </div>
+                                    <div class="card__image">
+                                        <img src="img/product-2.jpg" alt="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                    </div>
+                                </div>
+                                <div class="card__badges">
+                                    <span class="card__badge green">Новинка</span>
+                                    <span class="card__badge violet">Хит</span>
+                                </div>
+                                <div class="card__price">
+                                    <span class="card__new-price"><span>599</span> грн.</span>
+                                    <span class="card__old-price">1 250 грн.</span>
+                                </div>
+                                <div class="card__actions">
+                                    <button class="card__buy">
+                                        <img src="img/basket-mini.png" alt="Купить товар">
+                                        <span>Купить товар</span>
+                                    </button>
+                                    <div class="card__additional-actions">
+                                        <button class="card__compare card__button" data-state="0">
+                                            <img src="img/comparison-mini.png" alt="Сравнить товар">
+                                            <span>Сравнить товар</span>
+                                        </button>
+                                        <button class="card__favorite card__button" data-state="0"> 
+                                            <img src="img/favorites-mini.png" alt="В избранное">
+                                            <span>В избранное</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card__mark">
+                                    <span>Mark</span>
+                                </div>
+                                <div class="card__name">
+                                    <a href="/" title="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                        Антифриз Fosser Antifreeze<br> FA 12 Readymix 1 л Concentrat, Germany
+                                    </a>
+                                </div>
+                                <div class="card__top">
+                                    <div class="card__rating">
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                    </div>
+                                    <a href="/" class="card__reviews">Без отзывов</a>
+                                    <span class="card__available">В наличии: <span class="counter">24</span> шт.</span>
+                                </div>
+                                <div class="card__inner">
+                                    <div class="card__features">
+                                        <p>
+                                            <img src="img/summer.png" alt="Летняя">
+                                            <span>Летняя</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/passenger.png" alt="Легковая">
+                                            <span>Легковая</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/new.png" alt="Новая">
+                                            <span>Новая</span>
+                                        </p>
+                                    </div>
+                                    <div class="card__image">
+                                        <img src="img/product-3.jpg" alt="Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany">
+                                    </div>
+                                </div>
+                                <div class="card__badges">
+                                    <span class="card__badge green">Новинка</span>
+                                </div>
+                                <div class="card__price">
+                                    <span class="card__new-price"><span>9 570</span> грн.</span>
+                                    <span class="card__old-price">11 250 грн.</span>
+                                </div>
+                                <div class="card__actions">
+                                    <button class="card__buy">
+                                        <img src="img/basket-mini.png" alt="Купить товар">
+                                        <span>Купить товар</span>
+                                    </button>
+                                    <div class="card__additional-actions">
+                                        <button class="card__compare card__button" data-state="0">
+                                            <img src="img/comparison-mini.png" alt="Сравнить товар">
+                                            <span>Сравнить товар</span>
+                                        </button>
+                                        <button class="card__favorite card__button" data-state="0">
+                                            <img src="img/favorites-mini.png" alt="В избранное">
+                                            <span>В избранное</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card__mark">
+                                    <span>Mark</span>
+                                </div>
+                                <div class="card__name">
+                                    <a href="/" title="Антифриз Fosser Antifreeze">
+                                        Антифриз Fosser Antifreeze
+                                    </a>
+                                </div>
+                                <div class="card__top">
+                                    <div class="card__rating">
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                        <svg class="icon checked" width="15" height="14"><use xlink:href="img/sprite.svg#star"></use></svg>
+                                    </div>
+                                    <a href="/" class="card__reviews">Отзывы (<span class="counter">10</span>)</a>
+                                    <span class="card__available">В наличии: <span class="counter">24</span> шт.</span>
+                                </div>
+                                <div class="card__inner">
+                                    <div class="card__features">
+                                        <p>
+                                            <img src="img/summer.png" alt="Летняя">
+                                            <span>Летняя</span>
+                                        </p>
+                                        <p>
+                                            <img src="img/passenger.png" alt="Легковая">
+                                            <span>Легковая</span>
+                                        </p>
+                                    </div>
+                                    <div class="card__image">
+                                        <img src="img/product-4.jpg" alt="Антифриз Fosser Antifreeze">
+                                    </div>
+                                </div>
+                                <div class="card__badges">
+                                    <!-- <span class="card__badge green">Новинка</span> -->
+                                </div>
+                                <div class="card__price">
+                                    <span class="card__new-price"><span>599</span> грн.</span>
+                                    <span class="card__old-price"></span>
+                                </div>
+                                <div class="card__actions">
+                                    <button class="card__buy">
+                                        <img src="img/basket-mini.png" alt="Купить товар">
+                                        <span>Купить товар</span>
+                                    </button>
+                                    <div class="card__additional-actions">
+                                        <button class="card__compare card__button" data-state="0">
+                                            <img src="img/comparison-mini.png" alt="Сравнить товар">
+                                            <span>Сравнить товар</span>
+                                        </button>
+                                        <button class="card__favorite card__button" data-state="0">
+                                            <img src="img/favorites-mini.png" alt="В избранное">
+                                            <span>В избранное</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-12">
+                        <div class="footer__mailing">
+                            <h2 class="footer__head">
+                                <span>Блок 1</span>
+                            </h2>
+                            <div class="footer__mailing-content">
+                                <h2>Будьте в курсе новостей и новинок!</h2>
+                                <p>Подписывайтесь на рассылку</p>
+                                <div id="mail_subscribe" class="footer__form">
+                                    <label>
+                                        <input class="footer__subscribe-input" type="text" placeholder="Укажите свой email для подписки">
+                                        <span id="email-error" class="footer__error"></span>
+                                    </label>
+                                    <button class="footer__subscribe-btn">Подписаться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6 col-12">
+                        <div class="footer__block">
+                            <h2 class="footer__head">
+                                <span>Блок ссылок 1</span>
+                            </h2>
+                            <ul class="footer__link-list">
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 1</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 2</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 3</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-6 col-12">
+                        <div class="footer__block">
+                            <h2 class="footer__head">
+                                <span>Блок 2</span>
+                            </h2>
+                            <ul class="footer__link-list">
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 1</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 2</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 3</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-12">
+                        <div class="footer__block">
+                            <h2 class="footer__head">
+                                <span>Блок ссылок 3</span>
+                            </h2>
+                            <ul class="footer__link-list">
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 1</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 2</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 3</a>
+                                </li>
+                                <li class="footer__link-item">
+                                    <a href="#" class="footer__link">Ссылка 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-4 col-sm-6 col-12">
+                            <div class="footer__copyright">
+                                <img src="img/test-grey.png" alt="Test">
+                                <span class="footer__divider"></span>
+                                <p>© Copyright 2017. Тестовое задание Wezom</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="footer__social">
+                                <ul class="footer__social-list">
+                                    <li class="footer__social-item">
+                                        <a href="/" class="footer__social-link">
+                                            <svg class="icon" width="16" height="9">
+                                                <use xlink:href="img/sprite.svg#vk"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-item">
+                                        <a href="/" class="footer__social-link">
+                                            <svg class="icon" width="8" height="16">
+                                                <use xlink:href="img/sprite.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-item">
+                                        <a href="/" class="footer__social-link">
+                                            <svg class="icon" width="16" height="13">
+                                                <use xlink:href="img/sprite.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-item">
+                                        <a href="/" class="footer__social-link">
+                                            <svg class="icon" width="16" height="11">
+                                                <use xlink:href="img/sprite.svg#youtube"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12">
+                            <div class="footer__author">
+                                <svg class="icon" width="42" height="15">
+                                    <use xlink:href="img/sprite.svg#wezom"></use>
+                                </svg>
+                                <span class="footer__divider"></span>
+                                <p class="footer__author-text">
+                                    <span>Разработка тестового</span>
+                                    <a href="/">Wezom Agency</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal callback">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <header class="modal__header">
+                    <h2>Перезвоните мне</h2>
+                </header>
+                <div class="modal__inner">
+                    <label for="phone" class="modal__phone modal__label">
+                        <span>Номер телефона</span>
+                        <input id="phone" type="text" class="modal__callback-input modal__input" placeholder="+38(0__)___-__-__" maxlength="18">
+                    </label>
+                    <div class="modal__action">
+                        <button class="modal__btn">Перезвоните мне</button>
+                    </div>
+                </div>
+                <button class="modal__close">
+                    <svg class="icon" width="27" height="27">
+                        <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="modal sign-in">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-12">
+                        <div class="modal__left">
+                            <header class="modal__header">
+                                <h2>Вход в личный кабинет</h2>
+                            </header>
+                            <form class="modal__form">
+                                <label for="email" class="modal__form-email modal__label">
+                                    <span>Ваш email</span>
+                                    <input id="email" type="email" class="modal__input" placeholder="mikel_ivanov98@gmail.com">
+                                    <span id="email__error" class="modal__error"></span>
+                                </label>
+                                <label for="password" class="modal__form-password modal__label">
+                                    <span>Пароль</span>
+                                    <input id="password" type="password" class="modal__input" placeholder="*************">
+                                    <span id="password__error" class="modal__error"></span>
+                                </label>
+                                <label for="remember" class="modal__checkbox modal__label">
+                                    <input id="remember" type="checkbox">
+                                    <span>Запомнить меня</span>
+                                </label>
+                                <div class="modal__form-links">
+                                    <a href="#">Забыли пароль?</a>
+                                    <a href="#">Регистрация</a>
+                                </div>
+                                <button type="submit" class="modal__form-enter modal__btn">Войти в личный кабинет</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="modal__right">
+                            <header class="modal__header">
+                                <h2>Войти с помощью</h2>
+                            </header>
+                            <div class="modal__social-sign">
+                                <button class="modal__social facebook">
+                                    <svg class="icon" width="9" height="16">
+                                        <use xlink:href="img/sprite.svg#facebook"></use>
+                                    </svg>
+                                    <span>Facebook</span>
+                                </button>
+                                <button class="modal__social twitter">
+                                    <svg class="icon" width="16" height="13">
+                                        <use xlink:href="img/sprite.svg#twitter"></use>
+                                    </svg>
+                                    <span>Twitter</span>
+                                </button>
+                                <button class="modal__social google">
+                                    <svg class="icon" width="16" height="16">
+                                        <use xlink:href="img/sprite.svg#google"></use>
+                                    </svg>
+                                    <span>Google</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal__close">
+                    <svg class="icon" width="27" height="27">
+                        <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="modal subscribe">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <header class="modal__header">
+                    <h2>Спасибо!</h2>
+                </header>
+                <div class="modal__inner">
+                    <p class="modal__text">
+                        Вы успешно подписаны на рассылку.
+                    </p>
+                </div>
+                <button class="modal__close">
+                    <svg class="icon" width="27" height="27">
+                        <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

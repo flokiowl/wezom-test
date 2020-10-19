@@ -1,0 +1,41 @@
+// @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@import "~normalize.css";
+
+@import "_variables";
+@import "_grid";
+@import "header";
+@import "menu";
+@import "search";
+@import "filters";
+@import "cards";
+@import "footer";
+@import "modal";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	background: #fff;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.grow {
+	flex-grow: 1;
+}
+
+

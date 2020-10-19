@@ -12,13 +12,13 @@
     &.callback {
         .modal__content {
             width: 378px;
-            max-width: 100%;
+            max-width: 85%;
         }
     }
     &.sign-in {
         .modal__content {
             width: 755px;
-            max-width: 100%;
+            max-width: 85%;
         }
     }
 }
@@ -268,5 +268,12 @@
         svg {
             margin-right: 0;
         }
+    }
+    .footer__form input {
+        padding: 0 15px;
+    }
+    .footer__subscribe-btn {
+        font-size: 14px;
+        padding: 0 15px;
     }
 }
